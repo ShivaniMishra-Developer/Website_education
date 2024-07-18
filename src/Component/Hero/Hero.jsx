@@ -8,7 +8,8 @@ const Hero = () => {
         <div className='hero-text'>
             <h1> We Ensure better education for a better world</h1>
             <p1>Trained and mentored over thousands of students.  </p1>
-<button className='btn'> Explore More <img src={dark_arrow} alt=""/> </button>            
+            <br/>
+            <button className='btn' style={{marginTop:"20px"}}> Explore More <img src={dark_arrow} alt=""/> </button>            
         </div>
       
     </div>

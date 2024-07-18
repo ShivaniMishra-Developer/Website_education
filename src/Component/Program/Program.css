@@ -41,3 +41,14 @@
         opacity: 1 ;
         padding-top: 0;
     }
+
+    @media screen and (max-width: 650px) {
+        .programs{
+            flex-direction: column;
+        }
+        .program img{
+            flex-basis: 100%;
+            margin: 20px;
+        }
+        
+    }
